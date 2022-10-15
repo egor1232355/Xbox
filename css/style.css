@@ -1,0 +1,217 @@
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+.a {
+  font-family: inherit;
+}
+.headr {
+  background: #373a3c;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 3px solid #777;
+}
+.container-headr {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.header-logo {
+}
+.headr-image {
+}
+.menu {
+}
+.menu-body {
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-item {
+  list-style: none;
+  margin-left: 40px;
+}
+.menu-link {
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: white;
+  text-shadow: 0 0 5px rgb(0, 255, 0);
+}
+
+.main {
+}
+.promo {
+  background: url(../img/srarwars.jpg) no-repeat center / cover;
+  height: calc(100vh - 63px);
+}
+.container-promo {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.promo__content {
+}
+.promo__title {
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 134px;
+}
+.block-promo-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+.promo-button {
+  padding: 8px 19px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 20s ease 0s;
+}
+
+.promo__title span {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.promo-button:hover {
+  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+}
+.best {
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  padding: 34px 0 165px 0;
+}
+.container {
+  max-width: 1105px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.best-title {
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+}
+.best-logo {
+  display: block;
+  margin: 0 auto;
+}
+.best-title span {
+  display: block;
+}
+.best-info {
+  display: flex;
+  justify-content: space-between;
+}
+.best-cart-img {
+  height: 180px;
+  background: url(../img/xbox.png);
+}
+.best-cart {
+  flex: 0 0 320px;
+  background: white;
+}
+
+.best-cart-title {
+  padding-bottom: 15px;
+  font-family: "HelveticaNeue";
+  font-size: 18px;
+}
+
+.text {
+  font-family: "HelveticaNeue";
+  font-size: 24px;
+}
+
+.bornot {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+  padding-top: 35px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+.promo-bornot {
+  padding: 8px 50px;
+  background: linear-gradient(180deg, #686c6f 0%, #48ff00 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 20s ease 0s;
+}
+
+.promo-bornot span {
+  background: linear-gradient(180deg, #8dd83d 0%, #8dd83d 100%);
+}
+
+.best-cart-img1 {
+  height: 180px;
+  background: url(../img/xbox.png);
+}
+.best-cart1 {
+  flex: 0 0 320px;
+  background: rgb(255, 255, 255);
+}
+
+.best-cart-title1 {
+  padding-bottom: 15px;
+  font-family: "HelveticaNeue";
+  font-size: 18px;
+}
+
+.text1 {
+  font-family: "HelveticaNeue";
+  font-size: 24px;
+}
+
+.best-cart-img2 {
+  height: 180px;
+  background: url(../img/xbox.png);
+}
+.best-cart2 {
+  flex: 0 0 320px;
+  background: rgb(255, 255, 255);
+}
+
+.best-cart-title2 {
+  padding-bottom: 15px;
+  font-family: "HelveticaNeue";
+  font-size: 18px;
+}
+
+.text2 {
+  font-family: "HelveticaNeue";
+  font-size: 24px;
+}
